@@ -16,7 +16,7 @@
 * "3d visualisation in a Jupyter notebook" - Marcin Kostur, Artur Trzęsiok
 * "Deep Learning Semantic Segmentation for Nucleus Detection" - Dawid Rymarczyk
 * "Bit to Qubit: Data in the age of quantum computers" - Shahnawaz Ahmed
-* "Transfer Learning for Neural Networks" - Dominik Lew
+* ["Transfer Learning for Neural Networks"](https://github.com/Lingaro-DataScience/transfer_learning) - Dominik Lewy
 * "Spot the difference: train your image analytics model to recognize fine grained similarity" - Katarina Milosevic, Ioana Gherman,
 * [In Browser AI - neural networks for everyone](https://www.dropbox.com/s/djht30ujl39w5sj/20181119_inbrowserai%20pydata%20warsaw.pdf?dl=0) - Kamila Stepniowska, Piotr Migdał
 * "Using convolutional neural networks to analyze bacteriophages DNA" - Michał Jadczuk
@@ -36,7 +36,7 @@
 * "Learning to rank @ allegro.pl" - Tomasz Bartczak, Ireneusz Gawlik
 * "The smart shopping basket: A Case Study with deep learning, Intel Movidius and AWS" - Marcin Stachowiak, Michal Dura, Piotr Szajowski
 * "It is never too much: training deep learning models with more than one modality" - Adam Słucki
-* "Visualize, Explore and Explain Predictive ML Models" - Przemyslaw Biecek
+* ["Visualize, Explore and Explain Predictive ML Models"](https://github.com/pbiecek/Talks/blob/master/2018/DALEX_PyDataWarsaw2018.pdf) - [Przemyslaw Biecek](http://pbiecek.github.io/)
 * "The Dawn of Mind Reading in Python" - Krzysztof Kotowski
 * "Uncertainty estimation and Bayesian Neural Networks" - Marcin Możejko
 * "A deep revolution in speech processing and analysis" - Pawel Cyrta15:30
@@ -47,6 +47,7 @@
 * "Step by step face swap" - Sylwester Brzęczkowski
 * [Optimizing Deep Neural Network Layer Topology with Delve](https://docs.google.com/presentation/d/143p3B9V-JJKtHpKse91KboN0Z03NRK3Ze2l0bSLcom8/view) - Justin Shenk
 
+## Lecture descriptions
 
 #### [PyTorch 1.0: now and in the future](https://pydata.org/warsaw2018/schedule/presentation/11/) - Adam Paszke
 ##### Description
