@@ -175,7 +175,16 @@ The Internet age generates vast amounts of data. Most of this data is unstructur
 ##### Description
 Ads on the web often consist of a picture with some text. Based on this information, can you tell what exactly is advertised? In this talk I will describe a system that automatically categorizes ads seen on the web. I will talk about potential approaches to this problem and describe in detail the chosen solution. This system was created as a joint project between Gemius and MIM Solutions.
 ##### Abstract
-I will talk about a solution to the following problem: we are given an advertisement from the web that consists of a picture and some text. We also know the website the ad links to. We need to determine what brand is advertised (from a list of known brands). A brand can be, for example:    * a specific product (a model of a car),   * a type of product (drugs for weight loss),   * a website (Allegro.pl) or   * a charity (pajacyk.pl).  Such task is quite easy for humans but hiring humans is quite expensive. Therefore, we looked for a way to automate this task. From machine learning point of view, this is a multiclass classification problem. It is complicated by the fact that there are a lot of classes and the input is a combination of text and image.  There are many possible approaches to such problem, among them:    * One vs Rest binary classification   * neural net with many outputs   * hierarchical classification  I will shortly discuss the pros and cons of those approaches and tell you why none of them were good enough for us. Then I will describe the chosen solution.
+I will talk about a solution to the following problem: we are given an advertisement from the web that consists of a picture and some text. We also know the website the ad links to. We need to determine what brand is advertised (from a list of known brands). A brand can be, for example:    
+* a specific product (a model of a car),   
+* a type of product (drugs for weight loss),   
+* a website (Allegro.pl) or   
+* a charity (pajacyk.pl).  
+
+Such task is quite easy for humans but hiring humans is quite expensive. Therefore, we looked for a way to automate this task. From machine learning point of view, this is a multiclass classification problem. It is complicated by the fact that there are a lot of classes and the input is a combination of text and image.  There are many possible approaches to such problem, among them:    
+* One vs Rest binary classification   
+* neural net with many outputs   
+* hierarchical classification  I will shortly discuss the pros and cons of those approaches and tell you why none of them were good enough for us. Then I will describe the chosen solution.
 
 #### [Spammers vs. Data: My everyday fight](https://pydata.org/warsaw2018/schedule/presentation/4/) - Juan De Dios Santos
 ##### Description
@@ -193,7 +202,12 @@ Social media sites are increasingly used for propagation of misinformation. Rece
 ##### Description
 I will show a few interesting examples of application the state of the art Machine Learning techniques in products used by millions of users. In this context, I will discuss also general but pragmatic need of R&D in the area of Artificial Intelligence from the perspective of Samsung Electronics - the world's largest information technology company, consumer electronics and chips maker.
 ##### Abstract
-During this talk I will show a few examples of application of the state of the art Machine Learning techniques in world-wide products used by millions of users. The examples of ML applications will be selected from various areas like:    * Natural Language Processing   * Audio, Image and Video Processing   * Data Analytics  In the context of real-life examples, I will discuss also the general but pragmatic need of R&D in the area of Artificial Intelligence from the perspective of Samsung Electronics - the world's largest information technology company, consumer electronics and chips maker.
+During this talk I will show a few examples of application of the state of the art Machine Learning techniques in world-wide products used by millions of users. The examples of ML applications will be selected from various areas like:    
+* Natural Language Processing   
+* Audio, Image and Video Processing   
+* Data Analytics  
+
+In the context of real-life examples, I will discuss also the general but pragmatic need of R&D in the area of Artificial Intelligence from the perspective of Samsung Electronics - the world's largest information technology company, consumer electronics and chips maker.
 
 #### [The Neural Aesthetic](https://pydata.org/warsaw2018/schedule/presentation/65/) - Gene Kogan
 ##### Description
@@ -265,7 +279,9 @@ In the past two years, we’ve seen the industry discovery of speech as a critic
 ##### Description
 The desirable date of the birth of a child follows the full duration of pregnancy. According to WHO data, 15 million children are born prematurely every year, of which 1.1 million dies, unfortunately. In this talk, we will present how to improve prediction rate of the spontaneous preterm delivery using deep learning and computer vision methods.
 ##### Abstract
-Preterm delivery (preterm birth) is the most common cause of neonatal death. Despite great advancement in pregnancy care, frequency of preterm delivery does not decrease. Therefore, it is important to develop prediction methods that will assess risk of the preterm delivery and thus enable gynecologists to start appropriate prevention treatment.    * Current diagnostic methods that assess risk of the spontaneous preterm delivery involve collection of maternal characteristics (via interview) and transvaginal ultrasound (US) conducted in the first and second trimester of pregnancy. Analysis of the US data is based on gynecologist's expertise, that is visual inspection of images, which is sometimes supported by hand-designed image features such as cervical length. Such approach is naturally prone to errors, thus approximately 30% of spontaneous preterm deliveries are not predicted. Moreover, 10% of predicted preterm deliveries are false-positives.     * During the talk, we will present results of our project focused on improving prediction rate of spontaneous preterm delivery. To that end, we use a deep neural network architecture trained for segmenting prenatal ultrasound images and another network to classify the resulting cropped image. We validate our results on real-life cases as our research is done in a close collaboration with gynecologists from Warsaw University of Medicine - they provide us with constant feedback and assess the usability of our solution in a day-to-day gynecologists' routine.
+Preterm delivery (preterm birth) is the most common cause of neonatal death. Despite great advancement in pregnancy care, frequency of preterm delivery does not decrease. Therefore, it is important to develop prediction methods that will assess risk of the preterm delivery and thus enable gynecologists to start appropriate prevention treatment. Current diagnostic methods that assess risk of the spontaneous preterm delivery involve collection of maternal characteristics (via interview) and transvaginal ultrasound (US) conducted in the first and second trimester of pregnancy. Analysis of the US data is based on gynecologist's expertise, that is visual inspection of images, which is sometimes supported by hand-designed image features such as cervical length. Such approach is naturally prone to errors, thus approximately 30% of spontaneous preterm deliveries are not predicted. Moreover, 10% of predicted preterm deliveries are false-positives. 
+
+During the talk, we will present results of our project focused on improving prediction rate of spontaneous preterm delivery. To that end, we use a deep neural network architecture trained for segmenting prenatal ultrasound images and another network to classify the resulting cropped image. We validate our results on real-life cases as our research is done in a close collaboration with gynecologists from Warsaw University of Medicine - they provide us with constant feedback and assess the usability of our solution in a day-to-day gynecologists' routine.
 
 Our talk is meant for intermediate machine learning researchers, engineers and students who are interested in the practical aspects of using deep learning for medical imaging.
 
@@ -298,7 +314,8 @@ Some people think Computer Vision is magical... well it's not. It's just math, s
 Identifying the number of hidden units in a fully connected layer is considered a heuristically-guided craft. A PyTorch library, Delve, was developed that allows identifying the degree of over-parameterization of a layer, thus guiding architecture selection. The library compares the intrinsic dimensionality of the layer over training, providing the user with live feedback during training.
 ##### Abstract
 * Why is identifying the number of units in a hidden layer hard?   
-* How is layer saturation calculated?   * Eigendecomposition of the latent representations   
+* How is layer saturation calculated?   
+* Eigendecomposition of the latent representations   
 * What is the advantage of this approach over alternatives?   
 * Live - during training   
 * Lightweight PyTorch extension   
