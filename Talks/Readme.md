@@ -70,7 +70,12 @@ The talk is a presentation of Luna, a visual-textual programming language and a 
 ##### Description
 Recently neural networks have become superior in many machine learning tasks. However, they are more difficult to interpret than simpler models such as decision trees. Such a condition is not acceptable in industries like healthcare or law. In this talk, I will talk on unified approach to explain the output of any machine learning model, especially neural networks.
 ##### Abstract
-Talk is going to be build around 3 main points: 1) Why interpretability is important? 2) Introducing Shapley Additive Explanations 3) SHAP framework in Python  In 1) I will elaborate on need for interpretability of machine learning models. Latter, I will introduce SHAP framework from theoretical standpoint and provide intuitions behind it. SHAP has been introduced year ago at NIPS conference and tends to perform better than LIME or original DeepLift with respect to consistency with human intuition. In last part I will show how to use SHAP in Python on several examples like image classification and text classification among the others.
+Talk is going to be build around 3 main points: 
+1) Why interpretability is important? 
+2) Introducing Shapley Additive Explanations 
+3) SHAP framework in Python  
+
+In 1) I will elaborate on need for interpretability of machine learning models. Latter, I will introduce SHAP framework from theoretical standpoint and provide intuitions behind it. SHAP has been introduced year ago at NIPS conference and tends to perform better than LIME or original DeepLift with respect to consistency with human intuition. In last part I will show how to use SHAP in Python on several examples like image classification and text classification among the others.
 
 #### [From Data to Deliverable](https://pydata.org/warsaw2018/schedule/presentation/52/) - Steph Samson
 ##### Description
@@ -325,7 +330,13 @@ Traffic congestion causes unnecessary delay, pollution and increased fuel consum
 ##### Description
 I will present how to implement a face swap. We will go step by step from simple “copy & paste” face on another image to fully functioning and nice looking face swap.
 ##### Abstract
-Some people think Computer Vision is magical... well it's not. It's just math, sweat and software engineering. In this talk, I will present how to implement a face swap. We will go step by step from simple “copy & paste” face on another image to fully functioning and nice looking face swap. Everything is backed with live examples right there on the stage. The talk will give you a general understanding of what kind of operations are performed under the hood of face swapping applications. You will know how these operations work and how exactly they improve the solution. The talk will resolve the following problems:    1. Face detection.   2. Facial landmarks detection.   3. Simulation of nonlinear image transformation using triangles warps.   4. Finding such triangles.   5. Blending 2 images together.   6. Video stabilization.
+Some people think Computer Vision is magical... well it's not. It's just math, sweat and software engineering. In this talk, I will present how to implement a face swap. We will go step by step from simple “copy & paste” face on another image to fully functioning and nice looking face swap. Everything is backed with live examples right there on the stage. The talk will give you a general understanding of what kind of operations are performed under the hood of face swapping applications. You will know how these operations work and how exactly they improve the solution. The talk will resolve the following problems:    
+1. Face detection.   
+2. Facial landmarks detection.   
+3. Simulation of nonlinear image transformation using triangles warps.   
+4. Finding such triangles.   
+5. Blending 2 images together.   
+6. Video stabilization.
 
 #### [Optimizing Deep Neural Network Layer Topology with Delve](https://pydata.org/warsaw2018/schedule/presentation/23/) - Justin Shenk
 ##### Description
